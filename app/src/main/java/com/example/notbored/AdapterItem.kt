@@ -21,7 +21,7 @@ class AdapterItem(
 
         holder.textItem.text = item
     }
-
+//
     override fun getItemCount() = lyst.size
 
     class MyViewHolder (itemView: View): RecyclerView.ViewHolder(itemView){
